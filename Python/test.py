@@ -1,2 +1,8 @@
-print( len("e-d-c-b-a-b-c-d-e") )
-# print( chr( ord('a') + 2 ) )
+import itertools
+
+print( [k for k, g in itertools.groupby('AAAABBBCCDAABBB')])
+print([list(g) for k, g in itertools.groupby('AAAABBBCCD')])
+
+for k, g in itertools.groupby('AAAABBBCCD'):
+	print(k)
+	print(len(list(g)))
