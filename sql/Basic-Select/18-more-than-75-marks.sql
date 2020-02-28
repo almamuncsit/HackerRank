@@ -1,0 +1,4 @@
+SELECT name FROM STUDENTS
+WHERE marks > 75
+ORDER BY SUBSTRING(name, LENGTH(name)-2, 3) ASC, 
+id ASC
