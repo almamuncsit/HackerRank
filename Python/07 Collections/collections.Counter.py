@@ -1,9 +1,9 @@
 from collections import Counter
 
 X = int(input())
-shoes = Counter( input().split() )
+shoes = Counter(input().split())
 
-N = int( input() )
+N = int(input())
 total = 0
 for _ in range(0, N):
 	size, price = input().split()

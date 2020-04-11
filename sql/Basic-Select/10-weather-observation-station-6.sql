@@ -1,1 +1,3 @@
-SELECT DISTINCT city FROM station WHERE city REGEXP "^[aeiou].*";
+SELECT DISTINCT city
+FROM station
+WHERE city REGEXP "^[aeiou].*";
